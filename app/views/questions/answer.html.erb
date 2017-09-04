@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>Questions and Answer</h1>
+
+  <div class="usermessage">
+    <h2><%= @your_message %></h2>
+    <p> - You</p>
+  </div>
+
+  <div class="coachmessage">
+    <h2> <%= @answer %></h2>
+    <p> - Your coach</p>
+  </div>
+
+  <%= link_to 'Ask another question', ask_path %>
+</div>
